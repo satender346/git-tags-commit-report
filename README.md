@@ -1,2 +1,2 @@
 # git-tags-commit-report
-This repo will find latest git tag name and commit difference between previous tag and new tag
+This repo will find latest git tag name and will generate html report of latest git tag and previous git tag.
