@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# This script will create a html report of latest git tag and previous git tag.
+# This script will create a html report of commit change between latest git tag and previous git tag or any given tags.
+# Script will create changelog.txt and html report.
 
 # find tag name with creation date
 new_tag=$(git tag -l --sort=-creatordate --format='%(refname:short): %(creatordate:short)' | head -1)
